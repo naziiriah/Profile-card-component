@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#container{
+    background-image: url(/images/bg-pattern-top.svg);
+    background-image: url(/images/bg-pattern-bottom.svg);
+}
+.bottom{
+    
+}
+#profile{
+    display: grid;
+    grid-template-rows: 40%  60%;
+    height:400px;
+    width:30%;
+    margin:  auto;
+    
+}
+#blue{
+ background-image: url(/images/bg-pattern-card.svg);
+}
+img{
+    top:-50%;
+    border-radius:50%;
+    border: 5px solid white;
+    margin:30px 023% 0px 23%;
+}
+#whitte{
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top:-50px;
+
+}
+p{
+    padding:50px 50px 20px 30px;
+    font-weight: bolder;
+}
+small{
+    font-weight: 200;
+}
